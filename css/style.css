@@ -1,0 +1,321 @@
+/*&display=swap*/
+/*&subset=cyrillic-ext*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap);
+
+/*обнуление*/
+*,	
+*::before, 
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+.wrapper{
+	min-height: 100%;
+	padding: 50px;
+}
+
+.mainconteyner{
+	background:#F5F5F5 url(../img/icons/third/Blobpng.png)820px -500px no-repeat;;
+	width: 1440px;
+	padding: 110px 210px;
+	font-family: Roboto, 'Helvetica Neue', sans-serif;
+	border-radius: 20px;
+	margin-bottom: 100px;
+}
+
+
+.top_block {
+	width: 583px;
+	margin-bottom: 36px;
+}
+
+.litletitle {
+	font-weight: 700;
+	font-size: 12px;
+	color:#5D62B5;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/icons/third/OverlineMark.svg)no-repeat;
+	padding:2px 0px 33px 33px ;
+}
+
+.bigtitle { 
+	font-weight: 900;
+	font-size: 36px;
+	color:#000000;
+	line-height:42px;
+	padding-bottom: 42px;
+}
+
+.bigcontent{
+	width: 1100px;
+}
+
+.conteyner1 {
+	margin-bottom: 24px;
+}
+
+.conteyner2 {
+	margin-bottom: 60px;
+}
+
+.block {
+	width: 324px;
+	text-align: center;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 20px;
+
+}
+
+.conteyner1 .block:not(:first-child) {
+	margin:0px 0px 0px 24px ;
+}
+
+.conteyner2 .block:not(:first-child) {
+	margin:0px 0px 0px 24px ;
+}
+
+.block:hover{
+	box-shadow: 0px 8px 16px 0px;
+	color: #262626;
+}
+
+
+.block_cont{
+	padding: 50px 44px 50px 43px ;
+}
+.img {
+	margin-bottom: 33px;
+}
+.title {
+	margin-bottom: 20px; 
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color:#F2726F;
+}
+.text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing:0,15px;
+	color:#4B4B4B;
+}
+
+.buttomblock {
+
+	width: 124px;
+	background-color:#F2726F ;
+	border-radius: 8px;
+	margin: 0px 0px 0px 437px;
+	
+}
+.buttom {
+	display: block;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+	color:#ffffff;
+	letter-spacing: 0.15px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 9px 0px;
+}
+
+.buttomblock:hover{
+	background-color:#f2716fcb ;
+}
+
+
+
+
+.mainconteyner2{
+	background:#F5F5F5;
+	width: 1440px;
+	padding: 110px 210px;
+	font-family: Roboto, 'Helvetica Neue', sans-serif;
+	border-radius: 20px;
+	margin-bottom: 150px;
+}
+
+.top_block2 {
+	width: 583px;
+	margin-bottom: 36px;
+}
+
+.litletitle2 {
+	font-weight: 700;
+	font-size: 12px;
+	color:#5D62B5;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/icons/third/OverlineMark.svg)no-repeat;
+	padding:2px 0px 33px 33px ;
+}
+.bigtitle2 { 
+	font-weight: 900;
+	font-size: 36px;
+	color:#000000;
+	line-height:42px;
+	padding-bottom: 68px;
+}
+
+.contforblock {
+}
+
+.contforblock .blocknew ::not(:first-child){
+	margin: 0px 0px 0px 27px;
+}
+
+
+.blocknew {
+	width: 324px;
+	display: inline-block;
+}
+.dogicon {
+	display: inline-block;
+}
+.contfb{
+	display: inline-block;
+	width: 235px;
+	vertical-align: top;
+	padding:0px 0px 0px 23px;
+}
+
+.titlenew {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color:#F2726F;
+	margin-bottom: 20px;
+}
+.textnew {
+	font-size: 16px;
+	font-weight: 400;
+	color: #4B4B4B;
+	line-height: 24px;
+	letter-spacing: 0,15px;
+}
+
+
+.mainconteyner3 {
+	width: 1440px;
+	padding: 110px 210px;
+	font-family: Roboto, 'Helvetica Neue', sans-serif;
+	border-radius: 20px;
+	margin-bottom: 100px;
+	background: #2AB1AD url(../img/icons/extra/pyatno.png) 620px 0 no-repeat;
+}
+
+.top_block3 {
+	width: 583px;
+	margin-bottom: 36px;
+}
+
+.litletitle3 {
+	font-weight: 700;
+	font-size: 12px;
+	color:#FFFFFF;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/icons/extra/Overline\ Mark.svg) 0 0 no-repeat;
+	padding:2px 0px 33px 33px ;
+}
+.bigtitle3 {
+	width: 411px;
+	font-weight: 900;
+	font-size: 36px;
+	color:#FFFFFF;
+	line-height:42px;
+	padding-bottom: 68px;
+}
+
+
+.beatydog{
+	margin: -430px 0px 0px 524px ;
+	border-radius: 40px;
+	
+}
+
+
+
+.conttoblock {
+	margin-bottom: 112px;
+}
+
+.conttoblock .block_item::not(:first-child){
+	margin-left: 24px;
+
+}
+
+.block_item {
+	display: inline-block;
+	width: 237px;
+	
+}
+.iconnew {
+	display: inline-block;
+	width: 76px;
+}
+.cont_into {
+	display: inline-block;
+	width: 150px;
+	padding-left: 11px;
+}
+
+.numb {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF ;
+	padding-bottom: 6px;
+}
+.textbottom {
+	color: #5D62B5;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 24px;
+	letter-spacing: 0,15px;
+}
+
+
+
+
